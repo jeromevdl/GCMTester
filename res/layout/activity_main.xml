@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/textview_description"
+       android:text="@string/app_description"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:layout_margin="10dp"
+       android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edittext_title"
+        style="@style/EditText"
+        android:hint="@string/title"
+        android:imeOptions="actionNext"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edittext_message"
+        style="@style/EditText"
+        android:hint="@string/message"
+        android:imeOptions="actionNext"
+        android:inputType="textMultiLine|textLongMessage"
+        android:lines="3" />
+
+    <EditText
+        android:id="@+id/edittext_image_url"
+        style="@style/EditText"
+        android:hint="@string/image_url"
+        android:imeOptions="actionSend"
+        android:inputType="textUri"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/button_send_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@android:drawable/ic_menu_send"
+        android:drawablePadding="5dp"
+        android:onClick="onSendNotificationClick"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/send" />
+
+</LinearLayout>

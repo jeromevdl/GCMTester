@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GCM Tester</string>
+	<string name="app_description">GCM Tester allows you to test the sending of GCM notifications to your phone</string>
+	<string name="share">Share</string>
+	<string name="title">Title</string>
+	<string name="message">Message: BigTextStyle (SDK>=16) if more than 15 char</string>
+	<string name="image_url">Image url: BigPictureStyle (SDK>=16)</string>
+	<string name="send">Send</string>
+</resources>

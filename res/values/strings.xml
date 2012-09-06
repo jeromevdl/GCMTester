@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">GCM Tester</string>
+    <string name="gcm_project_id"><YOUR PROJECT ID></string>
+    <string name="gcm_auth_key"><YOUR AUTH KEY></string>
+	<string name="app_description">GCM Tester vous permet de tester l\'envoie de notifications GCM sur votre téléphone</string>
+	<string name="share">Partager</string>
+	<string name="title">Titre</string>
+	<string name="message">Message : BigTextStyle (SDK>=16) si plus de 15 caractères</string>
+	<string name="image_url">Url de l\'image : BigPictureStyle (SDK>=16)</string>
+	<string name="send">Envoyer</string>
+</resources>
